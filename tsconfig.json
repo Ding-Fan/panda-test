@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "strict": true,
+        "types": [],
+        "skipLibCheck": true,
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        }
+    },
+    "include": [
+        "src",
+        "styled-system"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/__tests__/*"
+    ]
+}

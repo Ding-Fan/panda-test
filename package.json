@@ -1,0 +1,20 @@
+{
+  "name": "panda-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cssBuild": "panda cssgen --outfile dist/panda.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pandacss/dev": "^0.5.1",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "20.3.1",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "18.2.5"
+  }
+}
