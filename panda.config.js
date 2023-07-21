@@ -1,4 +1,5 @@
 import { defineConfig } from "@pandacss/dev";
+import { YPreset } from "./src/panda/preset";
 
 export default defineConfig({
   // Whether to use css reset
@@ -17,4 +18,6 @@ export default defineConfig({
 
   // The output directory for your css system
   outdir: "styled-system",
+
+  presets: ["@pandacss/dev/presets", YPreset],
 });

@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@pandacss/dev": "^0.5.1",
+    "@pandacss/dev": "dev",
     "@types/lodash": "^4.14.195",
     "@types/node": "20.3.1",
     "@types/react": "^18.2.14",
